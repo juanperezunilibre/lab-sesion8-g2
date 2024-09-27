@@ -1,0 +1,77 @@
+@import url("fonts.css");
+@import url("gallery.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("background.avif");
+    background-size: cover;
+    background-position: center;
+    color: #eee;
+    font-family: 'Playwrite DE Grund', sans-serif;
+}
+
+.titulo {
+    font-family: "Roboto";
+    font-size: 30px;
+    text-align: center;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+form {
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+form label {
+    color: #333;
+}
+
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+
+.button {
+    padding: 8px;
+    background-color: #eb4d4b;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    font-family: "Roboto";
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+}

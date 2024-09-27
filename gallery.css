@@ -1,0 +1,8 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+section img {
+    width: 150px;
+}

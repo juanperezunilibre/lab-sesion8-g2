@@ -6,63 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0; 
-            background-color: #30336b; 
-            color: #eee; 
-            font-family: 'Edu AU VIC WA NT Dots', 'Playwrite DE Grund', sans-serif;
-        }
-
-        h1 {
-            font-family: "Roboto";
-            font-size: 30px; 
-            text-align: center;
-        }
-
-        main {
-            width: 60%; 
-            margin: auto;
-            gap: 30px;
-            display: flex;
-            flex-direction: column;
-            padding: 20px;
-        }
-
-        p {
-            text-align: justify;
-        }
-
-        p a {
-            color: white;
-            text-decoration: underline;
-        }
-
-        section {
-            display: grid; 
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        }
-
-        section img {
-            width: 150px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <main>
-        <h1>Los vengadores</h1>
+        <h1 class="titulo">Los vengadores</h1>
 
         <p >Los Vengadores de Marvel, conocidos como <a href="https://en.wikipedia.org/wiki/Avengers_(comics)"  target="_blank">The Avengers</a> en inglés, son un equipo
             de
@@ -83,6 +33,21 @@
 
             <img src="civilwar.webp" alt="civilwar.webp">
         </section>
+
+        
+
+        <h2 class="titulo">Newsletter</h2>
+
+        <form action="">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="tunombre@dominio.com">
+
+            <button class="button">Enviar</button>
+
+            <h2 class="titulo">Boletas</h2>
+
+        <a class="button" href="#">Compra tus boletas aquí</a>
+        </form>
     </main>
 
 </body>
